@@ -11,6 +11,10 @@ public:
         return *this;
 
     }
+    string getjudul()
+    {
+        return this->judul;
+    }
 
 };
 
