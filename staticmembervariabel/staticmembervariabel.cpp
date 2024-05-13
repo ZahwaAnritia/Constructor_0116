@@ -4,7 +4,7 @@ using namespace std;
 class mahasiswa
 {
 private:
-    static int nim;
+    static long long int nim;
 public:
     int id;
     string nama;
