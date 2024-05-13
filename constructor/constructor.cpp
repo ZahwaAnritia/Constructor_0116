@@ -8,25 +8,30 @@ public:
     int nim;
     string nama;
 
-public: 
+public:
     Mahasiswa()
     {
         nim = 0;
         nama = "";
-
     };
     Mahasiswa(int iNim)
     {
         nim = iNim;
     }
-    
+
     Mahasiswa(string);
-    Mahasiswa(int iNim, string iNama);
-    void cetak();
+    Mahasiswa(int iNim, string iNama)
+    {
+        nim = iNim;
+        nama = iNama; 
+    };
+
+
+    void cetak()
+    {
+        cout << endl;
+        cout << "Nim = " << nim << endl;
+        cout << "Nama = " << nama << endl;
+
+    }
 };
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
