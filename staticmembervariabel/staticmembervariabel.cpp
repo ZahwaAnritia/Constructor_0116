@@ -24,6 +24,11 @@ public:
 
 long long int mahasiswa::nim = 20230140116;
 
+void mahasiswa::setID()
+{
+    id = nim++;
+}
+
 
 
 int main()
