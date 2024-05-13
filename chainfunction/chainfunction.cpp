@@ -5,20 +5,23 @@ class buku
 {
     string judul;
 public:
-    buku setHudul(string judul)
+    buku setJudul(string judul)
     {
         this->judul = judul;
         return *this;
 
     }
-    string getjudul()
+    string getJudul()
     {
         return this->judul;
     }
 
-};
+} bukunya;
 
 int main()
 {
-    
+    //bukunya.setJudul("Matematika");
+    //cout << bukunya.getJudul();
+    cout << bukunya.setJudul("Matematika").getJudul(); 
+    return 0;
 }
