@@ -43,6 +43,7 @@ int main()
 {
     mahasiswa mhs1("Zahwa");
     mahasiswa mhs2("wanda");
+    mahasiswa::setNim(20230140116);
     mahasiswa mhs3("sekar");
     mahasiswa mhs4("kamilia");
 
