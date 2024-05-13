@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pemdas_13Mei2024", "Pemdas_13Mei2024\Pemdas_13Mei2024.vcxproj", "{F02D1FEF-AA0E-44E7-A831-1A7711FBE48A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "staticmembervariabel", "staticmembervariabel\staticmembervariabel.vcxproj", "{CE1CFF61-966E-4A50-A196-0C418558538B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{F02D1FEF-AA0E-44E7-A831-1A7711FBE48A}.Release|x64.Build.0 = Release|x64
 		{F02D1FEF-AA0E-44E7-A831-1A7711FBE48A}.Release|x86.ActiveCfg = Release|Win32
 		{F02D1FEF-AA0E-44E7-A831-1A7711FBE48A}.Release|x86.Build.0 = Release|Win32
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Debug|x64.ActiveCfg = Debug|x64
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Debug|x64.Build.0 = Debug|x64
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Debug|x86.Build.0 = Debug|Win32
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Release|x64.ActiveCfg = Release|x64
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Release|x64.Build.0 = Release|x64
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Release|x86.ActiveCfg = Release|Win32
+		{CE1CFF61-966E-4A50-A196-0C418558538B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
